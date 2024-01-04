@@ -1,3 +1,5 @@
 h1.name {
     background-image: url("images/me.jpeg");
+    align: center;
+    height: 70px;
 }
