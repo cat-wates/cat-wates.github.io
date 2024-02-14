@@ -1,93 +1,99 @@
 body {
-    background-color: black;
-    font-family: Arial;
-    font-weight: lighter;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+  background-color: rgb(48, 48, 48);
+  font-family: "Source Code Pro";
+  margin: 60px;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .navigation ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: rgb(56, 41, 218);
-    margin: auto;
-  }
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(48, 48, 48);
+  float: right;
+  font-weight: bolder;
+}
 
-.navigation li {
+.navigation #logo {
+    width: 350px;
+    height: 65px;
     float: left;
 }
 
-.navigation li #linkedin {
-    float: right;
-    width: 40px;
+.navigation li {
+  float: right;
 }
 
 .navigation a {
-    display: block;
-    padding: 20px;
-    color: white;
-    background-color: rgb(56, 41, 218);
-    text-align: center;
-    font-size: 32px;
-    text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  text-align: center;
+  font-size: 32px;
+  text-decoration: none;
 }
 
 .navigation a:hover {
-    color: rgba(245, 245, 245, 0.851);
+  color: #CA78E3;
+}
+
+.main {
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 0.2fr 2fr 0.2fr 1fr 2fr;
+}
+
+.intro {
+    border: solid 0.1rem rgb(71, 71, 71);
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(71, 71, 71);;
+    text-align: center;
+    grid-area: 2 / 2 / 2 / 7;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 2rem;
+}
+
+.recent-projects {
+    grid-area: 4 / 2 / 4 / 7;
+    color: white;
+    text-align: center;
+}
+
+.project-1 {
+    grid-area: 5 / 2 / 5 / 2;
+    background-color: #CA78E3;
+    text-align: center;
+}
+
+.project-2 {
+    grid-area: 5 / 4 / 5 / 4;
+    background-color: #FFC600;
+    text-align: center;
+}
+
+.project-3 {
+    grid-area: 5 / 6 / 5 / 6;
+    background-color: #536CF1;
+    text-align: center;
 }
 
 .external {
-    float: right;
+  float: right;
 }
 
-#linkedin{
-    width: 20px;
+#linkedin {
+  width: 20px;
 }
 
 #github {
-    width: 40px;
+  width: 40px;
 }
-
-
-
-.banner {
-    position: relative;
-}
-
-.banner img {
-    display: block;
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.overlay-text h1 {
-    position: absolute;
-    top: 20%; 
-    left: 25%; 
-    transform: translate(-50%, -50%); 
-    background-color: purple;
-    opacity: 0.9;
-    color: #fff; 
-    padding: 5px 20px; 
-    font-size: 7vw; 
-    text-align: center;
-}
-
-.overlay-text h2 {
-    position: absolute;
-    top: 54%; 
-    left: 25%; 
-    transform: translate(-50%, -50%); 
-    background-color: rgb(56, 41, 218);
-    opacity: 0.9;
-    color: #fff; 
-    padding: 5px 20px; 
-    font-size: 1.55vw; 
-    text-align: center;
-}
-
