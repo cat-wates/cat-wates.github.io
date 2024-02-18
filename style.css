@@ -6,8 +6,8 @@ body {
 }
 
 .navigation {
-    display: grid;
-    grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .navigation ul {
@@ -19,9 +19,9 @@ body {
 }
 
 .navigation #logo {
-    width: 350px;
-    height: 65px;
-    float: left;
+  width: 350px;
+  height: 65px;
+  float: left;
 }
 
 .navigation li {
@@ -39,7 +39,7 @@ body {
 }
 
 .navigation a:hover {
-  color: #CA78E3;
+  color: #ca78e3;
 }
 
 .main {
@@ -49,47 +49,46 @@ body {
 }
 
 .intro {
-    border: solid 0.1rem rgb(71, 71, 71);
-    color: white;
-    background-color: rgb(71, 71, 71);;
-    text-align: center;
-    grid-area: 2 / 2 / 2 / 7;
-    padding: 20px;
-    box-shadow: 5px 5px #536CF1, 10px 10px #FFC600, 15px 15px #CA78E3;
+  border: solid 0.1rem rgb(71, 71, 71);
+  color: white;
+  background-color: rgb(71, 71, 71);
+  text-align: center;
+  grid-area: 2 / 2 / 2 / 7;
+  padding: 20px;
+  box-shadow: 5px 5px #536cf1, 10px 10px #ffc600, 15px 15px #ca78e3;
 }
 
 .intro h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .recent-projects {
-    grid-area: 4 / 2 / 4 / 7;
-    color: white;
-    text-align: center;
-    font-size: 1.2rem;
-    max-height: 30px;
-
+  grid-area: 4 / 2 / 4 / 7;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  max-height: 30px;
 }
 
 .project-1 {
-    grid-area: 5 / 2 / 5 / 7;
-    background-color: #CA78E3;
-    text-align: center;
-    min-width: 250px;
+  grid-area: 5 / 2 / 5 / 7;
+  background-color: #ca78e3;
+  text-align: center;
+  min-width: 250px;
 }
 
 .project-2 {
-    grid-area: 7 / 2 / 7 / 7;
-    background-color: #FFC600;
-    text-align: center;
-    min-width: 250px;
+  grid-area: 7 / 2 / 7 / 7;
+  background-color: #ffc600;
+  text-align: center;
+  min-width: 250px;
 }
 
 .project-3 {
-    grid-area: 9 / 2 / 9 / 7;
-    background-color: #536CF1;
-    text-align: center;
-    min-width: 250px;
+  grid-area: 9 / 2 / 9 / 7;
+  background-color: #536cf1;
+  text-align: center;
+  min-width: 250px;
 }
 
 .see-all-projects {
@@ -101,7 +100,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-
 }
 
 .external ul {
